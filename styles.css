@@ -1,0 +1,85 @@
+@layer base {
+	h1 {
+		display: block !important;
+		font-size: 2em !important;
+		margin-top: 0.67em !important;
+		margin-bottom: 0.67em !important;
+		margin-left: 0 !important;
+		margin-right: 0 !important;
+		font-weight: bold !important;
+	}
+
+	h2 {
+		display: block !important;
+		font-size: 1.5em !important;
+		margin-top: 0.83em !important;
+		margin-bottom: 0.83em !important;
+		margin-left: 0 !important;
+		margin-right: 0 !important;
+		font-weight: bold !important;
+	}
+
+	p {
+		display: block !important;
+		margin-top: 1em !important;
+		margin-bottom: 1em !important;
+		margin-left: 0 !important;
+		margin-right: 0 !important;
+	}
+
+	a:link {
+		color: (internal value) !important;
+		text-decoration: underline !important;
+		cursor: pointer !important;
+	}
+
+	a:visited {
+		color: (internal value) !important;
+		text-decoration: underline !important;
+		cursor: pointer !important;
+	}
+
+	a:link:active {
+		color: (internal value) !important;
+	}
+
+	a:visited:active {
+		color: (internal value) !important;
+	}
+
+	ol {
+		display: block !important;
+		list-style-type: decimal !important;
+		margin-top: 1em !important;
+		margin-bottom: 1em !important;
+		margin-left: 0 !important;
+		margin-right: 0 !important;
+		padding-left: 40px !important;
+	}
+
+	ul {
+		display: block !important;
+		list-style-type: disc !important;
+		margin-top: 1em !important;
+		margin-bottom: 1 em !important;
+		margin-left: 0 !important;
+		margin-right: 0 !important;
+		padding-left: 40px !important;
+	}
+
+	li {
+		display: list-item !important;
+	}
+
+	strong {
+		font-weight: bold !important;
+	}
+
+	blockquote {
+		display: block !important;
+		margin-top: 1em !important;
+		margin-bottom: 1em !important;
+		margin-left: 40px !important;
+		margin-right: 40px !important;
+	}
+}
